@@ -34,3 +34,18 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo "This workflow is called GITHUB_WORKFLOW--> $GITHUB_WORKFLOW"
+          echo "This is run ID GITHUB_RUN_ID--> $GITHUB_RUN_ID"
+          echo "The current action is GITHUB_ACTION--> $GITHUB_ACTION"
+          echo "The workflow was triggered by GITHUB_ACTOR--> $GITHUB_ACTOR"
+          echo "This workflow is running in the repository GITHUB_REPOSITORY--> $GITHUB_REPOSITORY"
+          echo "This workflow was triggered by GITHUB_EVENT_NAME--> $GITHUB_EVENT_NAME"
+          echo "The ref that triggered this workflow is GITHUB_REF--> $GITHUB_REF"
+          echo "The commit SHA is GITHUB_SHA--> $GITHUB_SHA"
+          echo "The workspace path is GITHUB_WORKSPACE--> $GITHUB_WORKSPACE"
+          echo "Using GITHUB_TOKEN for authentication. $GITHUB_TOKEN"
+
+
+
+
+          

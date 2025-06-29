@@ -11,15 +11,15 @@ jobs:
     steps:
       - name: Output GitHub event
         run: |
-            echo "GitHub event:" 
-            echo "${{ toJson(github) }}"
+            printf "GitHub event:" 
+            printf "${{ toJson(github) }}"
       - name: Output Issue
-        run: echo "${{ toJson(github.event.issue) }}"
+        run: printf "${{ toJson(github.event.issue) }}"
       - name: Output Issue Title
-        run: echo "${{ github.event.issue.title }}"
+        run: printf "${{ github.event.issue.title }}"
       - name: Output Issue Body
-        run: echo "${{ github.event.issue.body }}"
+        run: printf "${{ github.event.issue.body }}"
       - name: Output Issue State
-        run: echo "${{ github.event.issue.state }}"
+        run: printf "${{ github.event.issue.state }}"
       - name: Output Issue URL
-        run: echo "${{ github.event.issue.html_url }}"
+        run: printf "${{ github.event.issue.html_url }}"

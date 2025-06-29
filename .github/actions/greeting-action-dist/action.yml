@@ -1,0 +1,9 @@
+name: 'My Custom Action'
+description: 'A simple custom GitHub action to greet users'
+inputs:
+  greeting:
+    description: 'A greeting message'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

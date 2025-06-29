@@ -1,0 +1,13 @@
+name: Custom Action 
+on: [push]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run My Custom Action
+        uses: ./.github/actions/greeting-action-dist
+        with:
+          greeting: 'Hello Yulian'

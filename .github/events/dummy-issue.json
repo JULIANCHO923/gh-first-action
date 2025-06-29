@@ -1,0 +1,15 @@
+{
+    "action": "opened",
+    "issue": {
+      "number": 2,
+      "title": "Test issue",
+      "body": "This is a test issue using act plugin since my local",
+      "state": "open",
+      "html_url": "https://github.com/juliancho923/gh-first-action/issues/2",
+      "user": { "login": "octocat" },
+      "labels": []
+    },
+    "repository": {
+      "full_name": "juliancho923/gh-first-action"
+    }
+  }

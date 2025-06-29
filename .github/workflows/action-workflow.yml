@@ -8,6 +8,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run My Custom Action
-        uses: ./greeting-action
+        uses: .actions/greeting-action
         with:
           greeting: 'Hello Yulian'

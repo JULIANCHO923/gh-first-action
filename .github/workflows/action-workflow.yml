@@ -1,5 +1,7 @@
 name: Custom Action 
 on: [push]
+concurrency: ci-${{ github.ref }}
+
 jobs:
   greet:
     runs-on: ubuntu-latest

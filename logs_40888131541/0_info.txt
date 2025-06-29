@@ -1,0 +1,314 @@
+﻿2025-06-29T14:46:00.9252335Z Current runner version: '2.325.0'
+2025-06-29T14:46:00.9277236Z ##[group]Operating System
+2025-06-29T14:46:00.9278002Z Ubuntu
+2025-06-29T14:46:00.9278583Z 24.04.2
+2025-06-29T14:46:00.9279029Z LTS
+2025-06-29T14:46:00.9279490Z ##[endgroup]
+2025-06-29T14:46:00.9280051Z ##[group]Runner Image
+2025-06-29T14:46:00.9280664Z Image: ubuntu-24.04
+2025-06-29T14:46:00.9281362Z Version: 20250622.1.0
+2025-06-29T14:46:00.9282492Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250622.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-06-29T14:46:00.9283831Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250622.1
+2025-06-29T14:46:00.9284675Z ##[endgroup]
+2025-06-29T14:46:00.9285236Z ##[group]Runner Image Provisioner
+2025-06-29T14:46:00.9285816Z 2.0.437.1
+2025-06-29T14:46:00.9286268Z ##[endgroup]
+2025-06-29T14:46:00.9288695Z ##[group]GITHUB_TOKEN Permissions
+2025-06-29T14:46:00.9290575Z Actions: write
+2025-06-29T14:46:00.9291548Z Attestations: write
+2025-06-29T14:46:00.9292196Z Checks: write
+2025-06-29T14:46:00.9292739Z Contents: write
+2025-06-29T14:46:00.9293221Z Deployments: write
+2025-06-29T14:46:00.9293726Z Discussions: write
+2025-06-29T14:46:00.9294252Z Issues: write
+2025-06-29T14:46:00.9294744Z Metadata: read
+2025-06-29T14:46:00.9295237Z Models: read
+2025-06-29T14:46:00.9295666Z Packages: write
+2025-06-29T14:46:00.9296225Z Pages: write
+2025-06-29T14:46:00.9296684Z PullRequests: write
+2025-06-29T14:46:00.9297189Z RepositoryProjects: write
+2025-06-29T14:46:00.9297816Z SecurityEvents: write
+2025-06-29T14:46:00.9298341Z Statuses: write
+2025-06-29T14:46:00.9298783Z ##[endgroup]
+2025-06-29T14:46:00.9300807Z Secret source: Actions
+2025-06-29T14:46:00.9301890Z Prepare workflow directory
+2025-06-29T14:46:00.9677065Z Prepare all required actions
+2025-06-29T14:46:00.9757461Z Complete job name: info
+2025-06-29T14:46:01.0567475Z ##[group]Run echo "Hello {
+2025-06-29T14:46:01.0569088Z [36;1mecho "Hello {[0m
+2025-06-29T14:46:01.0569600Z [36;1m  "action": "reopened",[0m
+2025-06-29T14:46:01.0570282Z [36;1m  "issue": {[0m
+2025-06-29T14:46:01.0570863Z [36;1m    "active_lock_reason": null,[0m
+2025-06-29T14:46:01.0571794Z [36;1m    "assignee": {[0m
+2025-06-29T14:46:01.0573213Z [36;1m      "avatar_url": "https://avatars.githubusercontent.com/u/5598534?v=4",[0m
+2025-06-29T14:46:01.0574822Z [36;1m      "events_url": "https://api.github.com/users/JULIANCHO923/events{/privacy}",[0m
+2025-06-29T14:46:01.0576262Z [36;1m      "followers_url": "https://api.github.com/users/JULIANCHO923/followers",[0m
+2025-06-29T14:46:01.0577477Z [36;1m      "following_url": "https://api.github.com/users/JULIANCHO923/following{/other_user}",[0m
+2025-06-29T14:46:01.0578520Z [36;1m      "gists_url": "https://api.github.com/users/JULIANCHO923/gists{/gist_id}",[0m
+2025-06-29T14:46:01.0579471Z [36;1m      "gravatar_id": "",[0m
+2025-06-29T14:46:01.0580104Z [36;1m      "html_url": "https://github.com/JULIANCHO923",[0m
+2025-06-29T14:46:01.0580780Z [36;1m      "id": 5598534,[0m
+2025-06-29T14:46:01.0581580Z [36;1m      "login": "JULIANCHO923",[0m
+2025-06-29T14:46:01.0582341Z [36;1m      "node_id": "MDQ6VXNlcjU1OTg1MzQ=",[0m
+2025-06-29T14:46:01.0583179Z [36;1m      "organizations_url": "https://api.github.com/users/JULIANCHO923/orgs",[0m
+2025-06-29T14:46:01.0584242Z [36;1m      "received_events_url": "https://api.github.com/users/JULIANCHO923/received_events",[0m
+2025-06-29T14:46:01.0585271Z [36;1m      "repos_url": "https://api.github.com/users/JULIANCHO923/repos",[0m
+2025-06-29T14:46:01.0585980Z [36;1m      "site_admin": false,[0m
+2025-06-29T14:46:01.0586845Z [36;1m      "starred_url": "https://api.github.com/users/JULIANCHO923/starred{/owner}{/repo}",[0m
+2025-06-29T14:46:01.0587994Z [36;1m      "subscriptions_url": "https://api.github.com/users/JULIANCHO923/subscriptions",[0m
+2025-06-29T14:46:01.0588815Z [36;1m      "type": "User",[0m
+2025-06-29T14:46:01.0589864Z [36;1m      "url": "https://api.github.com/users/JULIANCHO923",[0m
+2025-06-29T14:46:01.0590560Z [36;1m      "user_view_type": "public"[0m
+2025-06-29T14:46:01.0591758Z [36;1m    },[0m
+2025-06-29T14:46:01.0592199Z [36;1m    "assignees": [[0m
+2025-06-29T14:46:01.0592858Z [36;1m      {[0m
+2025-06-29T14:46:01.0593531Z [36;1m        "avatar_url": "https://avatars.githubusercontent.com/u/5598534?v=4",[0m
+2025-06-29T14:46:01.0594490Z [36;1m        "events_url": "https://api.github.com/users/JULIANCHO923/events{/privacy}",[0m
+2025-06-29T14:46:01.0595617Z [36;1m        "followers_url": "https://api.github.com/users/JULIANCHO923/followers",[0m
+2025-06-29T14:46:01.0596641Z [36;1m        "following_url": "https://api.github.com/users/JULIANCHO923/following{/other_user}",[0m
+2025-06-29T14:46:01.0597670Z [36;1m        "gists_url": "https://api.github.com/users/JULIANCHO923/gists{/gist_id}",[0m
+2025-06-29T14:46:01.0598573Z [36;1m        "gravatar_id": "",[0m
+2025-06-29T14:46:01.0599198Z [36;1m        "html_url": "https://github.com/JULIANCHO923",[0m
+2025-06-29T14:46:01.0599862Z [36;1m        "id": 5598534,[0m
+2025-06-29T14:46:01.0600490Z [36;1m        "login": "JULIANCHO923",[0m
+2025-06-29T14:46:01.0601271Z [36;1m        "node_id": "MDQ6VXNlcjU1OTg1MzQ=",[0m
+2025-06-29T14:46:01.0602150Z [36;1m        "organizations_url": "https://api.github.com/users/JULIANCHO923/orgs",[0m
+2025-06-29T14:46:01.0603262Z [36;1m        "received_events_url": "https://api.github.com/users/JULIANCHO923/received_events",[0m
+2025-06-29T14:46:01.0604286Z [36;1m        "repos_url": "https://api.github.com/users/JULIANCHO923/repos",[0m
+2025-06-29T14:46:01.0605015Z [36;1m        "site_admin": false,[0m
+2025-06-29T14:46:01.0605916Z [36;1m        "starred_url": "https://api.github.com/users/JULIANCHO923/starred{/owner}{/repo}",[0m
+2025-06-29T14:46:01.0607026Z [36;1m        "subscriptions_url": "https://api.github.com/users/JULIANCHO923/subscriptions",[0m
+2025-06-29T14:46:01.0608041Z [36;1m        "type": "User",[0m
+2025-06-29T14:46:01.0608756Z [36;1m        "url": "https://api.github.com/users/JULIANCHO923",[0m
+2025-06-29T14:46:01.0609448Z [36;1m        "user_view_type": "public"[0m
+2025-06-29T14:46:01.0610031Z [36;1m      }[0m
+2025-06-29T14:46:01.0610574Z [36;1m    ],[0m
+2025-06-29T14:46:01.0611053Z [36;1m    "author_association": "OWNER",[0m
+2025-06-29T14:46:01.0611813Z [36;1m    "body": null,[0m
+2025-06-29T14:46:01.0612404Z [36;1m    "closed_at": null,[0m
+2025-06-29T14:46:01.0612973Z [36;1m    "comments": 0,[0m
+2025-06-29T14:46:01.0613836Z [36;1m    "comments_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1/comments",[0m
+2025-06-29T14:46:01.0614854Z [36;1m    "created_at": "2025-06-29T14:19:08Z",[0m
+2025-06-29T14:46:01.0615786Z [36;1m    "events_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1/events",[0m
+2025-06-29T14:46:01.0617169Z [36;1m    "html_url": "https://github.com/JULIANCHO923/gh-first-action/issues/1",[0m
+2025-06-29T14:46:01.0618089Z [36;1m    "id": 3186213448,[0m
+2025-06-29T14:46:01.0618610Z [36;1m    "labels": [[0m
+2025-06-29T14:46:01.0619129Z [36;1m      {[0m
+2025-06-29T14:46:01.0619675Z [36;1m        "color": "d73a4a",[0m
+2025-06-29T14:46:01.0620319Z [36;1m        "default": true,[0m
+2025-06-29T14:46:01.0620998Z [36;1m        "description": "Something isn't working",[0m
+2025-06-29T14:46:01.0621998Z [36;1m        "id": 8857821580,[0m
+2025-06-29T14:46:01.0622550Z [36;1m        "name": "bug",[0m
+2025-06-29T14:46:01.0623163Z [36;1m        "node_id": "LA_kwDOPDjq4c8AAAACD_ehjA",[0m
+2025-06-29T14:46:01.0624141Z [36;1m        "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/labels/bug"[0m
+2025-06-29T14:46:01.0624978Z [36;1m      },[0m
+2025-06-29T14:46:01.0625450Z [36;1m      {[0m
+2025-06-29T14:46:01.0625976Z [36;1m        "color": "a2eeef",[0m
+2025-06-29T14:46:01.0626583Z [36;1m        "default": true,[0m
+2025-06-29T14:46:01.0627179Z [36;1m        "description": "New feature or request",[0m
+2025-06-29T14:46:01.0627897Z [36;1m        "id": 8857821583,[0m
+2025-06-29T14:46:01.0628463Z [36;1m        "name": "enhancement",[0m
+2025-06-29T14:46:01.0629351Z [36;1m        "node_id": "LA_kwDOPDjq4c8AAAACD_ehjw",[0m
+2025-06-29T14:46:01.0630362Z [36;1m        "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/labels/enhancement"[0m
+2025-06-29T14:46:01.0631649Z [36;1m      },[0m
+2025-06-29T14:46:01.0632147Z [36;1m      {[0m
+2025-06-29T14:46:01.0632579Z [36;1m        "color": "008672",[0m
+2025-06-29T14:46:01.0633306Z [36;1m        "default": true,[0m
+2025-06-29T14:46:01.0633922Z [36;1m        "description": "Extra attention is needed",[0m
+2025-06-29T14:46:01.0634571Z [36;1m        "id": 8857821585,[0m
+2025-06-29T14:46:01.0635205Z [36;1m        "name": "help wanted",[0m
+2025-06-29T14:46:01.0635818Z [36;1m        "node_id": "LA_kwDOPDjq4c8AAAACD_ehkQ",[0m
+2025-06-29T14:46:01.0636779Z [36;1m        "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/labels/help%20wanted"[0m
+2025-06-29T14:46:01.0637703Z [36;1m      },[0m
+2025-06-29T14:46:01.0638232Z [36;1m      {[0m
+2025-06-29T14:46:01.0638679Z [36;1m        "color": "7057ff",[0m
+2025-06-29T14:46:01.0639317Z [36;1m        "default": true,[0m
+2025-06-29T14:46:01.0639937Z [36;1m        "description": "Good for newcomers",[0m
+2025-06-29T14:46:01.0640513Z [36;1m        "id": 8857821588,[0m
+2025-06-29T14:46:01.0641316Z [36;1m        "name": "good first issue",[0m
+2025-06-29T14:46:01.0641965Z [36;1m        "node_id": "LA_kwDOPDjq4c8AAAACD_ehlA",[0m
+2025-06-29T14:46:01.0642926Z [36;1m        "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/labels/good%20first%20issue"[0m
+2025-06-29T14:46:01.0643913Z [36;1m      }[0m
+2025-06-29T14:46:01.0644347Z [36;1m    ],[0m
+2025-06-29T14:46:01.0645169Z [36;1m    "labels_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1/labels{/name}",[0m
+2025-06-29T14:46:01.0646331Z [36;1m    "locked": false,[0m
+2025-06-29T14:46:01.0646901Z [36;1m    "milestone": null,[0m
+2025-06-29T14:46:01.0647455Z [36;1m    "node_id": "I_kwDOPDjq4c696cJI",[0m
+2025-06-29T14:46:01.0648178Z [36;1m    "number": 1,[0m
+2025-06-29T14:46:01.0648783Z [36;1m    "performed_via_github_app": null,[0m
+2025-06-29T14:46:01.0649398Z [36;1m    "reactions": {[0m
+2025-06-29T14:46:01.0650035Z [36;1m      "+1": 0,[0m
+2025-06-29T14:46:01.0650506Z [36;1m      "-1": 0,[0m
+2025-06-29T14:46:01.0651011Z [36;1m      "confused": 1,[0m
+2025-06-29T14:46:01.0651715Z [36;1m      "eyes": 0,[0m
+2025-06-29T14:46:01.0652247Z [36;1m      "heart": 0,[0m
+2025-06-29T14:46:01.0652739Z [36;1m      "hooray": 0,[0m
+2025-06-29T14:46:01.0653363Z [36;1m      "laugh": 0,[0m
+2025-06-29T14:46:01.0653888Z [36;1m      "rocket": 0,[0m
+2025-06-29T14:46:01.0654394Z [36;1m      "total_count": 1,[0m
+2025-06-29T14:46:01.0655298Z [36;1m      "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1/reactions"[0m
+2025-06-29T14:46:01.0656178Z [36;1m    },[0m
+2025-06-29T14:46:01.0656896Z [36;1m    "repository_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action",[0m
+2025-06-29T14:46:01.0657810Z [36;1m    "state": "open",[0m
+2025-06-29T14:46:01.0658347Z [36;1m    "state_reason": "reopened",[0m
+2025-06-29T14:46:01.0658961Z [36;1m    "sub_issues_summary": {[0m
+2025-06-29T14:46:01.0659549Z [36;1m      "completed": 0,[0m
+2025-06-29T14:46:01.0660136Z [36;1m      "percent_completed": 0,[0m
+2025-06-29T14:46:01.0660693Z [36;1m      "total": 0[0m
+2025-06-29T14:46:01.0661444Z [36;1m    },[0m
+2025-06-29T14:46:01.0662397Z [36;1m    "timeline_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1/timeline",[0m
+2025-06-29T14:46:01.0663330Z [36;1m    "title": "Issue for testing",[0m
+2025-06-29T14:46:01.0664035Z [36;1m    "updated_at": "2025-06-29T14:45:54Z",[0m
+2025-06-29T14:46:01.0664839Z [36;1m    "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/1",[0m
+2025-06-29T14:46:01.0665655Z [36;1m    "user": {[0m
+2025-06-29T14:46:01.0736649Z [36;1m      "avatar_url": "https://avatars.githubusercontent.com/u/5598534?v=4",[0m
+2025-06-29T14:46:01.0737848Z [36;1m      "events_url": "https://api.github.com/users/JULIANCHO923/events{/privacy}",[0m
+2025-06-29T14:46:01.0738782Z [36;1m      "followers_url": "https://api.github.com/users/JULIANCHO923/followers",[0m
+2025-06-29T14:46:01.0739744Z [36;1m      "following_url": "https://api.github.com/users/JULIANCHO923/following{/other_user}",[0m
+2025-06-29T14:46:01.0740714Z [36;1m      "gists_url": "https://api.github.com/users/JULIANCHO923/gists{/gist_id}",[0m
+2025-06-29T14:46:01.0741704Z [36;1m      "gravatar_id": "",[0m
+2025-06-29T14:46:01.0742693Z [36;1m      "html_url": "https://github.com/JULIANCHO923",[0m
+2025-06-29T14:46:01.0743670Z [36;1m      "id": 5598534,[0m
+2025-06-29T14:46:01.0744497Z [36;1m      "login": "JULIANCHO923",[0m
+2025-06-29T14:46:01.0745442Z [36;1m      "node_id": "MDQ6VXNlcjU1OTg1MzQ=",[0m
+2025-06-29T14:46:01.0746792Z [36;1m      "organizations_url": "https://api.github.com/users/JULIANCHO923/orgs",[0m
+2025-06-29T14:46:01.0747807Z [36;1m      "received_events_url": "https://api.github.com/users/JULIANCHO923/received_events",[0m
+2025-06-29T14:46:01.0748730Z [36;1m      "repos_url": "https://api.github.com/users/JULIANCHO923/repos",[0m
+2025-06-29T14:46:01.0749387Z [36;1m      "site_admin": false,[0m
+2025-06-29T14:46:01.0750112Z [36;1m      "starred_url": "https://api.github.com/users/JULIANCHO923/starred{/owner}{/repo}",[0m
+2025-06-29T14:46:01.0751116Z [36;1m      "subscriptions_url": "https://api.github.com/users/JULIANCHO923/subscriptions",[0m
+2025-06-29T14:46:01.0752220Z [36;1m      "type": "User",[0m
+2025-06-29T14:46:01.0752778Z [36;1m      "url": "https://api.github.com/users/JULIANCHO923",[0m
+2025-06-29T14:46:01.0753385Z [36;1m      "user_view_type": "public"[0m
+2025-06-29T14:46:01.0753866Z [36;1m    }[0m
+2025-06-29T14:46:01.0754237Z [36;1m  },[0m
+2025-06-29T14:46:01.0754808Z [36;1m  "repository": {[0m
+2025-06-29T14:46:01.0755268Z [36;1m    "allow_forking": true,[0m
+2025-06-29T14:46:01.0756104Z [36;1m    "archive_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/{archive_format}{/ref}",[0m
+2025-06-29T14:46:01.0756977Z [36;1m    "archived": false,[0m
+2025-06-29T14:46:01.0757784Z [36;1m    "assignees_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/assignees{/user}",[0m
+2025-06-29T14:46:01.0758920Z [36;1m    "blobs_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/git/blobs{/sha}",[0m
+2025-06-29T14:46:01.0760033Z [36;1m    "branches_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/branches{/branch}",[0m
+2025-06-29T14:46:01.0761029Z [36;1m    "clone_url": "https://github.com/JULIANCHO923/gh-first-action.git",[0m
+2025-06-29T14:46:01.0762520Z [36;1m    "collaborators_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/collaborators{/collaborator}",[0m
+2025-06-29T14:46:01.0763790Z [36;1m    "comments_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/comments{/number}",[0m
+2025-06-29T14:46:01.0764905Z [36;1m    "commits_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/commits{/sha}",[0m
+2025-06-29T14:46:01.0766063Z [36;1m    "compare_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/compare/{base}...{head}",[0m
+2025-06-29T14:46:01.0767246Z [36;1m    "contents_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/contents/{+path}",[0m
+2025-06-29T14:46:01.0768414Z [36;1m    "contributors_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/contributors",[0m
+2025-06-29T14:46:01.0769293Z [36;1m    "created_at": "2025-06-28T22:58:23Z",[0m
+2025-06-29T14:46:01.0769827Z [36;1m    "default_branch": "main",[0m
+2025-06-29T14:46:01.0770638Z [36;1m    "deployments_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/deployments",[0m
+2025-06-29T14:46:01.0771627Z [36;1m    "description": null,[0m
+2025-06-29T14:46:01.0772119Z [36;1m    "disabled": false,[0m
+2025-06-29T14:46:01.0772875Z [36;1m    "downloads_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/downloads",[0m
+2025-06-29T14:46:01.0774031Z [36;1m    "events_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/events",[0m
+2025-06-29T14:46:01.0774772Z [36;1m    "fork": false,[0m
+2025-06-29T14:46:01.0775206Z [36;1m    "forks": 0,[0m
+2025-06-29T14:46:01.0775634Z [36;1m    "forks_count": 0,[0m
+2025-06-29T14:46:01.0776320Z [36;1m    "forks_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/forks",[0m
+2025-06-29T14:46:01.0777122Z [36;1m    "full_name": "JULIANCHO923/gh-first-action",[0m
+2025-06-29T14:46:01.0778033Z [36;1m    "git_commits_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/git/commits{/sha}",[0m
+2025-06-29T14:46:01.0779162Z [36;1m    "git_refs_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/git/refs{/sha}",[0m
+2025-06-29T14:46:01.0780245Z [36;1m    "git_tags_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/git/tags{/sha}",[0m
+2025-06-29T14:46:01.0781330Z [36;1m    "git_url": "git://github.com/JULIANCHO923/gh-first-action.git",[0m
+2025-06-29T14:46:01.0782077Z [36;1m    "has_discussions": false,[0m
+2025-06-29T14:46:01.0782582Z [36;1m    "has_downloads": true,[0m
+2025-06-29T14:46:01.0783066Z [36;1m    "has_issues": true,[0m
+2025-06-29T14:46:01.0783529Z [36;1m    "has_pages": false,[0m
+2025-06-29T14:46:01.0783995Z [36;1m    "has_projects": true,[0m
+2025-06-29T14:46:01.0784466Z [36;1m    "has_wiki": true,[0m
+2025-06-29T14:46:01.0784920Z [36;1m    "homepage": null,[0m
+2025-06-29T14:46:01.0785614Z [36;1m    "hooks_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/hooks",[0m
+2025-06-29T14:46:01.0786499Z [36;1m    "html_url": "https://github.com/JULIANCHO923/gh-first-action",[0m
+2025-06-29T14:46:01.0787134Z [36;1m    "id": 1010363105,[0m
+2025-06-29T14:46:01.0787590Z [36;1m    "is_template": false,[0m
+2025-06-29T14:46:01.0788613Z [36;1m    "issue_comment_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/comments{/number}",[0m
+2025-06-29T14:46:01.0789893Z [36;1m    "issue_events_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues/events{/number}",[0m
+2025-06-29T14:46:01.0791059Z [36;1m    "issues_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/issues{/number}",[0m
+2025-06-29T14:46:01.0792876Z [36;1m    "keys_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/keys{/key_id}",[0m
+2025-06-29T14:46:01.0793944Z [36;1m    "labels_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/labels{/name}",[0m
+2025-06-29T14:46:01.0794733Z [36;1m    "language": null,[0m
+2025-06-29T14:46:01.0795472Z [36;1m    "languages_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/languages",[0m
+2025-06-29T14:46:01.0796251Z [36;1m    "license": null,[0m
+2025-06-29T14:46:01.0796953Z [36;1m    "merges_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/merges",[0m
+2025-06-29T14:46:01.0798046Z [36;1m    "milestones_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/milestones{/number}",[0m
+2025-06-29T14:46:01.0798914Z [36;1m    "mirror_url": null,[0m
+2025-06-29T14:46:01.0799414Z [36;1m    "name": "gh-first-action",[0m
+2025-06-29T14:46:01.0799925Z [36;1m    "node_id": "R_kgDOPDjq4Q",[0m
+2025-06-29T14:46:01.0800934Z [36;1m    "notifications_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/notifications{?since,all,participating}",[0m
+2025-06-29T14:46:01.0802058Z [36;1m    "open_issues": 1,[0m
+2025-06-29T14:46:01.0802531Z [36;1m    "open_issues_count": 1,[0m
+2025-06-29T14:46:01.0803003Z [36;1m    "owner": {[0m
+2025-06-29T14:46:01.0803617Z [36;1m      "avatar_url": "https://avatars.githubusercontent.com/u/5598534?v=4",[0m
+2025-06-29T14:46:01.0804519Z [36;1m      "events_url": "https://api.github.com/users/JULIANCHO923/events{/privacy}",[0m
+2025-06-29T14:46:01.0805429Z [36;1m      "followers_url": "https://api.github.com/users/JULIANCHO923/followers",[0m
+2025-06-29T14:46:01.0806399Z [36;1m      "following_url": "https://api.github.com/users/JULIANCHO923/following{/other_user}",[0m
+2025-06-29T14:46:01.0807501Z [36;1m      "gists_url": "https://api.github.com/users/JULIANCHO923/gists{/gist_id}",[0m
+2025-06-29T14:46:01.0808207Z [36;1m      "gravatar_id": "",[0m
+2025-06-29T14:46:01.0808752Z [36;1m      "html_url": "https://github.com/JULIANCHO923",[0m
+2025-06-29T14:46:01.0809305Z [36;1m      "id": 5598534,[0m
+2025-06-29T14:46:01.0809758Z [36;1m      "login": "JULIANCHO923",[0m
+2025-06-29T14:46:01.0810287Z [36;1m      "node_id": "MDQ6VXNlcjU1OTg1MzQ=",[0m
+2025-06-29T14:46:01.0811015Z [36;1m      "organizations_url": "https://api.github.com/users/JULIANCHO923/orgs",[0m
+2025-06-29T14:46:01.0812219Z [36;1m      "received_events_url": "https://api.github.com/users/JULIANCHO923/received_events",[0m
+2025-06-29T14:46:01.0813121Z [36;1m      "repos_url": "https://api.github.com/users/JULIANCHO923/repos",[0m
+2025-06-29T14:46:01.0813785Z [36;1m      "site_admin": false,[0m
+2025-06-29T14:46:01.0814501Z [36;1m      "starred_url": "https://api.github.com/users/JULIANCHO923/starred{/owner}{/repo}",[0m
+2025-06-29T14:46:01.0815498Z [36;1m      "subscriptions_url": "https://api.github.com/users/JULIANCHO923/subscriptions",[0m
+2025-06-29T14:46:01.0816248Z [36;1m      "type": "User",[0m
+2025-06-29T14:46:01.0816792Z [36;1m      "url": "https://api.github.com/users/JULIANCHO923",[0m
+2025-06-29T14:46:01.0817406Z [36;1m      "user_view_type": "public"[0m
+2025-06-29T14:46:01.0817891Z [36;1m    },[0m
+2025-06-29T14:46:01.0818274Z [36;1m    "private": false,[0m
+2025-06-29T14:46:01.0819016Z [36;1m    "pulls_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/pulls{/number}",[0m
+2025-06-29T14:46:01.0819837Z [36;1m    "pushed_at": "2025-06-29T14:45:51Z",[0m
+2025-06-29T14:46:01.0820802Z [36;1m    "releases_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/releases{/id}",[0m
+2025-06-29T14:46:01.0821752Z [36;1m    "size": 698,[0m
+2025-06-29T14:46:01.0822326Z [36;1m    "ssh_url": "git@github.com:JULIANCHO923/gh-first-action.git",[0m
+2025-06-29T14:46:01.0822964Z [36;1m    "stargazers_count": 0,[0m
+2025-06-29T14:46:01.0823736Z [36;1m    "stargazers_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/stargazers",[0m
+2025-06-29T14:46:01.0824841Z [36;1m    "statuses_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/statuses/{sha}",[0m
+2025-06-29T14:46:01.0825945Z [36;1m    "subscribers_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/subscribers",[0m
+2025-06-29T14:46:01.0827097Z [36;1m    "subscription_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/subscription",[0m
+2025-06-29T14:46:01.0828050Z [36;1m    "svn_url": "https://github.com/JULIANCHO923/gh-first-action",[0m
+2025-06-29T14:46:01.0828906Z [36;1m    "tags_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/tags",[0m
+2025-06-29T14:46:01.0829853Z [36;1m    "teams_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/teams",[0m
+2025-06-29T14:46:01.0830581Z [36;1m    "topics": [],[0m
+2025-06-29T14:46:01.0831472Z [36;1m    "trees_url": "https://api.github.com/repos/JULIANCHO923/gh-first-action/git/trees{/sha}",[0m
+2025-06-29T14:46:01.0832300Z [36;1m    "updated_at": "2025-06-29T14:44:36Z",[0m
+2025-06-29T14:46:01.0832986Z [36;1m    "url": "https://api.github.com/repos/JULIANCHO923/gh-first-action",[0m
+2025-06-29T14:46:01.0833713Z [36;1m    "visibility": "public",[0m
+2025-06-29T14:46:01.0834208Z [36;1m    "watchers": 0,[0m
+2025-06-29T14:46:01.0834661Z [36;1m    "watchers_count": 0,[0m
+2025-06-29T14:46:01.0835163Z [36;1m    "web_commit_signoff_required": false[0m
+2025-06-29T14:46:01.0835674Z [36;1m  },[0m
+2025-06-29T14:46:01.0836040Z [36;1m  "sender": {[0m
+2025-06-29T14:46:01.0836654Z [36;1m    "avatar_url": "https://avatars.githubusercontent.com/u/5598534?v=4",[0m
+2025-06-29T14:46:01.0837551Z [36;1m    "events_url": "https://api.github.com/users/JULIANCHO923/events{/privacy}",[0m
+2025-06-29T14:46:01.0838452Z [36;1m    "followers_url": "https://api.github.com/users/JULIANCHO923/followers",[0m
+2025-06-29T14:46:01.0839535Z [36;1m    "following_url": "https://api.github.com/users/JULIANCHO923/following{/other_user}",[0m
+2025-06-29T14:46:01.0840482Z [36;1m    "gists_url": "https://api.github.com/users/JULIANCHO923/gists{/gist_id}",[0m
+2025-06-29T14:46:01.0841315Z [36;1m    "gravatar_id": "",[0m
+2025-06-29T14:46:01.0841856Z [36;1m    "html_url": "https://github.com/JULIANCHO923",[0m
+2025-06-29T14:46:01.0842415Z [36;1m    "id": 5598534,[0m
+2025-06-29T14:46:01.0842856Z [36;1m    "login": "JULIANCHO923",[0m
+2025-06-29T14:46:01.0843375Z [36;1m    "node_id": "MDQ6VXNlcjU1OTg1MzQ=",[0m
+2025-06-29T14:46:01.0844106Z [36;1m    "organizations_url": "https://api.github.com/users/JULIANCHO923/orgs",[0m
+2025-06-29T14:46:01.0845070Z [36;1m    "received_events_url": "https://api.github.com/users/JULIANCHO923/received_events",[0m
+2025-06-29T14:46:01.0845981Z [36;1m    "repos_url": "https://api.github.com/users/JULIANCHO923/repos",[0m
+2025-06-29T14:46:01.0846641Z [36;1m    "site_admin": false,[0m
+2025-06-29T14:46:01.0847356Z [36;1m    "starred_url": "https://api.github.com/users/JULIANCHO923/starred{/owner}{/repo}",[0m
+2025-06-29T14:46:01.0848357Z [36;1m    "subscriptions_url": "https://api.github.com/users/JULIANCHO923/subscriptions",[0m
+2025-06-29T14:46:01.0849093Z [36;1m    "type": "User",[0m
+2025-06-29T14:46:01.0849620Z [36;1m    "url": "https://api.github.com/users/JULIANCHO923",[0m
+2025-06-29T14:46:01.0850222Z [36;1m    "user_view_type": "public"[0m
+2025-06-29T14:46:01.0850701Z [36;1m  }[0m
+2025-06-29T14:46:01.0851051Z [36;1m}"[0m
+2025-06-29T14:46:01.1296762Z shell: /usr/bin/bash -e {0}
+2025-06-29T14:46:01.1297556Z env:
+2025-06-29T14:46:01.1297944Z   ACTIONS_RUNNER_DEBUG: true
+2025-06-29T14:46:01.1298379Z ##[endgroup]
+2025-06-29T14:46:01.1632844Z /home/runner/work/_temp/737b02ae-514c-49c3-9de2-5b16d2663261.sh: line 62: unexpected EOF while looking for matching `''
+2025-06-29T14:46:01.1659687Z ##[error]Process completed with exit code 2.
+2025-06-29T14:46:01.1787945Z Cleaning up orphan processes

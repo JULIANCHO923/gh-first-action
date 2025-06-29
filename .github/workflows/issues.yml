@@ -10,7 +10,9 @@ jobs:
       ACTIONS_RUNNER_DEBUG: true
     steps:
       - name: Output GitHub event
-        run: echo "Hello ${{ toJson(github.event) }}"
+        run: |
+            echo "GitHub event:" 
+            echo ${{ toJson(github.event) }}
       - name: Output Issue
         run: echo "${{ toJson(github.event.issue) }}"
       - name: Output Issue Title

@@ -6,6 +6,8 @@ on:
 jobs:
   info:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_RUNNER_DEBUG: true
     steps:
       - name: Output GitHub event
         run: echo "${{ toJson(github.event) }}"

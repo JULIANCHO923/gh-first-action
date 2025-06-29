@@ -11,10 +11,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run the workflow call
-        uses: juliancho923/gh-first-action/.github/workflows/reusable-workflow.yml@main
-        with:
-            config-path: "config example"
+    uses: juliancho923/gh-first-action/.github/workflows/reusable-workflow.yml@main
+    with:
+        config-path: "config example"

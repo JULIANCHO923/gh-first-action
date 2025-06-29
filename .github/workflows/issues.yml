@@ -19,9 +19,3 @@ jobs:
         run: echo "${{ github.event.issue.state }}"
       - name: Output Issue URL
         run: echo "${{ github.event.issue.html_url }}"
-      - name: Output Issue Author 
-        run: echo "${{ github.event.issue.user.login }}"
-      - name: Output Issue Labels 
-        run: echo "${{ toJson(github.event.issue.labels) }}"
-      - name: Output Issue Comments URL       
-        run: echo "${{ github.event.issue.comments_url }}"            

@@ -9,11 +9,7 @@ jobs:
     env:
       ACTIONS_RUNNER_DEBUG: true
     steps:
-      - name: Output GitHub event
-        shell: bash
-        run: |
-            printf "GitHub event:" 
-            printf "${{ toJson(github) }}"
+    
       - name: Output Issue
         shell: bash
         run: printf "${{ toJson(github.event.issue) }}"

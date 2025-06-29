@@ -1,6 +1,6 @@
 name: Custom Action 
 on: [push]
-concurrency: ci-${{ github.ref }}
+concurrency: ci-${{ github.workflow }}
 
 jobs:
   greet:

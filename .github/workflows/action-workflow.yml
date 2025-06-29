@@ -1,10 +1,10 @@
-name: Example Workflow
+name: Custom Action 
 on: [push]
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
       - name: Run My Custom Action
-        uses: ./actions
+        uses: ./greeting-action
         with:
           greeting: 'Hello Yulian'

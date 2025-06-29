@@ -1,0 +1,12 @@
+on:
+    workflow_call:
+      inputs:
+        config-path:
+          required: true
+          type: string
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print config path
+        run: echo "Config path is ${{ inputs.config-path }}"      

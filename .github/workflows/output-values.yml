@@ -1,0 +1,29 @@
+name: Output variables
+on: 
+  push:
+    branches: [ "main" ]    
+  workflow_dispatch:
+ 
+jobs:
+  writing:
+    runs-on: ubuntu-latest
+    outputs:
+      custom-var: ${{ steps.step-id-custom-1.outputs.custom-var }}
+      custom-var-2: ${{ steps.step-id-custom-2.outputs.custom-var-2 }}
+    steps:
+      - name: Custom Var 1
+        id: step-id-custom-1
+        run: echo "custom-var=Hello Yulian" >> $GITHUB_OUTPUT
+      - name: Custom Var 2
+        id: step-id-custom-2
+        run: echo "::set-output name=custom-var-2::Another way to save data"
+  reading:
+    needs: writing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read Custom Var
+        run: echo "Custom Var is ${{ needs.writing.outputs.custom-var }}"
+      - name: Read Custom Var 2
+        run: echo "Custom Var 2 is ${{ needs.writing.outputs.custom-var-2 }}"
+
+

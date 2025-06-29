@@ -10,16 +10,22 @@ jobs:
       ACTIONS_RUNNER_DEBUG: true
     steps:
       - name: Output GitHub event
+        shell: bash
         run: |
             printf "GitHub event:" 
             printf "${{ toJson(github) }}"
       - name: Output Issue
+        shell: bash
         run: printf "${{ toJson(github.event.issue) }}"
       - name: Output Issue Title
+        shell: bash
         run: printf "${{ github.event.issue.title }}"
       - name: Output Issue Body
+        shell: bash
         run: printf "${{ github.event.issue.body }}"
       - name: Output Issue State
+        shell: bash
         run: printf "${{ github.event.issue.state }}"
       - name: Output Issue URL
+        shell: bash
         run: printf "${{ github.event.issue.html_url }}"
